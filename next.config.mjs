@@ -6,14 +6,18 @@ const nextConfig = {
         protocol: "https",
         hostname: "images.unsplash.com",
       },
+      {
+        protocol: "https",
+        hostname: "pocketwatch-865fc.appspot.com",
+      },
+      {
+        protocol: "https",
+        hostname: "firebasestorage.googleapis.com",
+      }
     ],
-    domains: ['localhost', 'pocketwatch-865fc.appspot.com', 'firebasestorage.googleapis.com'],
     dangerouslyAllowSVG: true,
     contentDispositionType: 'attachment',
     contentSecurityPolicy: "default-src 'self'; script-src 'none'; sandbox;",
-  },
-  experimental: {
-    serverActions: true,
   },
 };
 
