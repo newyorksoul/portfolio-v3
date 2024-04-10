@@ -26,7 +26,7 @@ export default function About() {
         self-taught expertise in full-stack development, I bring a holistic
         approach to <span className="font-medium">software engineering</span>. My journey into coding was fueled by a
         passion for creating and a knack for problem-solving, leading me to
-        master technologies such as <span className="font-medium">React Native/Expo, React/Next.js, Node.js,
+        engulf myself in technologies such as <span className="font-medium">React Native/Expo, React/Next.js, Node.js,
         and MySQL.</span> Proficient in <span className="font-medium">TypeScript</span>, I am committed to continuous
         learning and am actively seeking a full-time role where I can contribute
         to innovative projects.
