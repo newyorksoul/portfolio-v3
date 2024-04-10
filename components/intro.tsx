@@ -31,7 +31,7 @@ export default function Intro() {
             }}
           >
             <Image
-              src="/profile.jpg"
+              src="/images/profile.jpg"
               alt="Kristoff portrait"
               width="1800"
               height="2400"

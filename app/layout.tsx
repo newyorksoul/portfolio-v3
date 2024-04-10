@@ -14,6 +14,20 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Kristoff | SWE Portfolio",
   description: "Kristoff is a software engineer based in NYC.",
+  icons: {
+    icon: [
+      {
+        media: '(prefers-color-scheme: light)',
+        url: '/images/icon-light.png',
+        href: '/images/icon-light.png',
+      },
+      {
+        media: '(prefers-color-scheme: dark)',
+        url: '/images/icon-dark.png',
+        href: '/images/icon-dark.png',
+      },
+    ],
+  }
 };
 
 export default function RootLayout({
