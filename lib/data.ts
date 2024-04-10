@@ -33,7 +33,7 @@ export const links = [
   },
 ] as const;
 
-export const experiencesData = [
+export const experienceData = [
   {
     title: "Web Developer / Freelance",
     location: "NYC / Online",
