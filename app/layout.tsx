@@ -7,6 +7,7 @@ import AppearanceProvider from "@/context/theme";
 import Header from "@/components/header";
 import Footer from "@/components/footer";
 import AnimatedCursor from "react-animated-cursor";
+import { Toaster } from "react-hot-toast";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -48,6 +49,7 @@ export default function RootLayout({
                 mixBlendMode: "exclusion",
               }}
             />
+            <Toaster position="top-right" />
           </CurrentSectionContextProvider>
         </AppearanceProvider>
       </body>
