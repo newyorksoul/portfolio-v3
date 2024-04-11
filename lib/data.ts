@@ -1,9 +1,9 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact, FaLaptopCode } from "react-icons/fa";
-import pocketwatchPreviewImage from "@/public/images/pocketwatch.png";
-import feteappPreviewImage from "@/public/images/feteappPreview.png";
-import hirescompressorPreviewImage from "@/public/images/hirescompressorPreview.jpg";
+import pocketwatchPreviewImage from "@/public/images/pocketwatch.webp";
+import feteappPreviewImage from "@/public/images/feteappPreview.webp";
+import hirescompressorPreviewImage from "@/public/images/hirescompressorPreview.webp";
 
 export const links = [
   {
