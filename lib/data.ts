@@ -47,7 +47,7 @@ export const experienceData = [
     description:
       "I did contract work as a front-end developer while I upskilled to full stack. I worked on mobile apps for clients using React Native.",
     icon: React.createElement(FaReact),
-    date: "2020 - present",
+    date: "2021 - present",
   },
   {
     title: "Full-Stack Developer",
@@ -97,8 +97,9 @@ export const skillsData = [
   "Tailwind",
   "GCP",
   "Firebase",
+  "SQL",
   "GraphQL",
-  "Unit Testing",
-  "Python",
+  "Jest",
   "CI/CD",
+  "Python",
 ] as const;
