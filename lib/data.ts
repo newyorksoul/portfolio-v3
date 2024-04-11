@@ -2,8 +2,8 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact, FaLaptopCode } from "react-icons/fa";
 import pocketwatchPreviewImage from "@/public/images/pocketwatch.png";
-import feteappPreviewImage from "@/public/images/pocketwatch.png";
-import hirescompressorPreviewImage from "@/public/images/pocketwatch.png";
+import feteappPreviewImage from "@/public/images/feteappPreview.png";
+import hirescompressorPreviewImage from "@/public/images/hirescompressorPreview.jpg";
 
 export const links = [
   {
@@ -37,7 +37,7 @@ export const experienceData = [
     title: "Web Developer / Freelance",
     location: "NYC / Online",
     description:
-      "I used online resources to jump start my tech pivot. I found contract jobs as a front-end developer as I continued my studies.",
+      "I used online resources to jump start my tech pivot. I found contract jobs as a front-end developer while I continued my studies.",
     icon: React.createElement(FaLaptopCode),
     date: "2019",
   },
@@ -45,7 +45,7 @@ export const experienceData = [
     title: "React Native Developer / Freelance",
     location: "New York City, NY",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "I did contract work as a front-end developer while I upskilled to full stack. I worked on mobile apps for clients using React Native.",
     icon: React.createElement(FaReact),
     date: "2020 - present",
   },
@@ -53,7 +53,7 @@ export const experienceData = [
     title: "Full-Stack Developer",
     location: "New York City, NY",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "I'm now a full-stack developer working as a freelancer and I am open to full-time opportunities.",
     icon: React.createElement(CgWorkAlt),
     date: "2022 - present",
   },
@@ -77,7 +77,7 @@ export const projectsData = [
   {
     title: "HiRes Compressor",
     description:
-      "A public mobile app for quick conversion of high quality photos and videos into acceptable upload sizes for social media. No more blurry flix! Reduce file size while maintaining excellent quality.",
+      "A public mobile app for quick conversion of high quality photos and videos into acceptable upload sizes or media types for social media. Reduce file size while maintaining excellent quality.",
     tags: ["React Native", "Expo", "TypeScript"],
     imageUrl: hirescompressorPreviewImage,
   },
