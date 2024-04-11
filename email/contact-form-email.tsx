@@ -38,7 +38,6 @@ export default function ContactFormEmail({
           <Text className="mb-4 text-left">{message}</Text>
 
         </Section>
-        //Footer
         <Text className="text-gray-600 text-xs text-center mt-16">
           Isle Byte, LLC. ・ New York City
         </Text>
