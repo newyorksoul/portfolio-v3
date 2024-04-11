@@ -26,16 +26,22 @@ export default function ContactFormEmail({
       <Head />
       <Preview>New message from your portfolio site</Preview>
       <Tailwind>
-        <Body className="bg-gray-100 text-black">
-          <Container>
-            <Section className="bg-white borderBlack my-10 px-10 py-4 rounded-md">
+        <Body className="bg-white text-gray-800 font-sans">
+          <Container className="max-w-[480px] mx-auto py-20 pb-48">
+            <Section className="p-6 border border-solid border-gray-300 rounded-md text-center">
               <Heading className="leading-tight">
-                You received the following message from the contact form
+                You received the following message from your portfolio's contact form
               </Heading>
-              <Text>{message}</Text>
-              <Hr />
-              <Text>The sender's email is: {senderEmail}</Text>
-            </Section>
+          <Text className="mb-4 text-left">
+            Hey, <strong>{senderEmail}</strong> sent a message!
+          </Text>
+          <Text className="mb-4 text-left">{message}</Text>
+
+        </Section>
+        //Footer
+        <Text className="text-gray-600 text-xs text-center mt-16">
+          Isle Byte, LLC. ・ New York City
+        </Text>
           </Container>
         </Body>
       </Tailwind>
