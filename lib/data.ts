@@ -15,16 +15,16 @@ export const links = [
     hash: "#about",
   },
   {
+    name: "Experience",
+    hash: "#experience",
+  },
+  {
     name: "Projects",
     hash: "#projects",
   },
   {
     name: "Skills",
     hash: "#skills",
-  },
-  {
-    name: "Experience",
-    hash: "#experience",
   },
   {
     name: "Contact",
@@ -35,42 +35,42 @@ export const links = [
 export const experienceData = [
   {
     title: "Web Developer / Freelance",
-    location: "NYC / Online",
     description:
-      "I used online resources to jump start my tech pivot. I found contract jobs as a front-end developer while I continued my studies.",
-    icon: React.createElement(FaLaptopCode),
+      "Leveraged online resources to kickstart my tech journey. Secured contract jobs as a front-end developer while continuing my studies. Contributed to various web projects during this period.",
     date: "2019",
+    icon: React.createElement(FaLaptopCode),
+    location: "",
   },
   {
     title: "React Native Developer / Freelance",
-    location: "New York City, NY",
     description:
-      "I did contract work as a front-end developer while I upskilled to full stack. I worked on mobile apps for clients using React Native.",
-    icon: React.createElement(FaReact),
+      "Specialized in React Native development. Collaborated with clients to build mobile apps. Upskilled from front-end to full-stack capabilities during freelance work.",
     date: "2021 - present",
+    icon: React.createElement(FaReact),
+    location: "",
   },
   {
-    title: "Full-Stack Developer",
-    location: "New York City, NY",
-    description:
-      "I'm now a full-stack developer working as a freelancer and I am open to full-time opportunities.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2022 - present",
+    title: "Software Engineer",
+    description: "Currently freelancing and open to full-time opportunities.",
+    date: "Present",
+    icon: React.createElement(FaReact),
+    location: "",
   },
+
 ] as const;
 
 export const projectsData = [
   {
     title: "PocketWatch",
     description:
-      "This is an open salary viewer. Users can view wages and hours of public employees. Personal project. Available on App and Play Stores.",
+      "This is an open salary viewer. Users can view wages and hours of public employees. Available on App and Play Stores.",
     tags: ["React Native", "React", "Next.js", "Tailwind", "Firebase"],
     imageUrl: pocketwatchPreviewImage,
   },
   {
     title: "Fete App",
     description:
-      "Event listing for soca fetes and carnival parties. It has features like search, event management and ticketing.",
+      "Event listing for soca fetes and carnival parties. It has features like search, event management and ticketing. Passion project.",
     tags: ["React Native", "Expo", "React", "TypeScript", "Firebase"],
     imageUrl: feteappPreviewImage,
   },

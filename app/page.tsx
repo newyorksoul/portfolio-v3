@@ -12,16 +12,18 @@ export default function Home() {
   return (
     <div>
       <MeshGradientRenderer
-        className="gradient absolute top-[-6rem] -z-10 right-[11rem] h-1/4 w-full rounded-full blur-[10rem] sm:w-[68.75rem] "
+        className="gradient bg-grainy:after absolute top-[-6rem] -z-10 right-[11rem] h-1/4 w-full rounded-full blur-[10rem] sm:w-[68.75rem] "
+        //colors={["#ffd78a", "#f7a2a1", "#FE9900", "#f9cdc3", "#f4762d"]}
         colors={["#C3E4FF", "#6EC3F4", "#FE9900", "#B9BEFF", "#B3B8F9"]}
+
       />
       <main className="flex flex-col items-center px-4">
         <Intro />
         <Section />
         <About />
+        <Experience />
         <Projects />
         <Skills />
-        <Experience />
         <Contact />
       </main>
     </div>
