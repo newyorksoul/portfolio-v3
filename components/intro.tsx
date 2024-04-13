@@ -31,39 +31,52 @@ export default function Intro() {
               duration: 0.2,
             }}
           >
-            {theme === "light" ?
-            <Image
-              src="/images/profile.jpg"
-              alt="Kristoff portrait"
-              width="1800"
-              height="2400"
-              quality="95"
-              priority={true}
-              className="h-64 w-64 rounded-full object-cover border-[0.35rem] border-white shadow-xl"
-            />
-            :
-            <Image
-              src="/images/profile-dark.png"
-              alt="Kristoff portrait"
-              width="1800"
-              height="2400"
-              quality="95"
-              priority={true}
-              className="h-64 w-64 rounded-full object-cover border-[0.35rem] border-white shadow-xl"
-            />
-          }
+            {theme === "light" ? (
+              <motion.div
+                initial={{ filter: "blur(20px)" }}
+                animate={{ filter: "blur(0px)" }}
+                transition={{ duration: 1.5, delay: 0.3 }}
+              >
+                <Image
+                  src="/images/profile.jpg"
+                  alt="Kristoff portrait"
+                  width="1800"
+                  height="2400"
+                  quality="95"
+                  priority={true}
+                  className="h-64 w-64 rounded-full object-cover border-[0.35rem] border-white shadow-xl"
+                />
+              </motion.div>
+            ) : (
+              <motion.div
+                initial={{ filter: "blur(20px)" }}
+                animate={{ filter: "blur(0px)" }}
+                transition={{ duration: 1.5, delay: 0.3 }}
+              >
+                <Image
+                  src="/images/profile-dark.png"
+                  alt="Kristoff portrait"
+                  width="1800"
+                  height="2400"
+                  quality="95"
+                  priority={true}
+                  className="h-64 w-64 rounded-full object-cover border-[0.35rem] border-white shadow-xl"
+                />
+              </motion.div>
+            )}
           </motion.div>
         </div>
       </div>
 
       <motion.h1
         className="mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl"
+        transition={{ duration: 1 }}
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
         <span className="font-bold">Hello, I&apos;m Kristoff.</span> I&apos;m a{" "}
-        <span className="font-bold">software engineer</span> who enjoys
-        building <span className="italic">apps & websites</span>. My focus is{" "}
+        <span className="font-bold">software engineer</span> who enjoys building{" "}
+        <span className="italic">apps & websites</span>. My focus is{" "}
         <span className="underline">React Native</span>.
       </motion.h1>
 
