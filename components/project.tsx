@@ -4,6 +4,8 @@ import { useRef } from "react";
 import { projectsData } from "@/lib/data";
 import Image from "next/image";
 import { motion, useScroll, useTransform } from "framer-motion";
+import AppStore from "@/public/images/app-store-badge.svg";
+import PlayStore from "@/public/images/google-play-badge.svg";
 
 type ProjectProps = (typeof projectsData)[number];
 
@@ -11,8 +13,10 @@ export default function Project({
   title,
   description,
   tags,
-  imageUrl,
-}: ProjectProps) {
+  imageURL,
+  appStoreURL,
+  playStoreURL
+}: ProjectProps & { appStoreURL: string; playStoreURL: string }) {
   const ref = useRef<HTMLDivElement>(null);
   const { scrollYProgress } = useScroll({
     target: ref,
@@ -46,10 +50,40 @@ export default function Project({
               </li>
             ))}
           </ul>
+
+          {appStoreURL && playStoreURL && (
+          <div className="flex justify-between my-4 ">
+            <a
+              href={appStoreURL}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-4"
+            >
+              <Image
+                src={AppStore}
+                alt="Download on the App Store"
+                width={112}
+                height={24}
+              />
+            </a>
+            <a
+              href={playStoreURL}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-4"
+            >
+              <Image
+                src={PlayStore}
+                alt="Get it on Google Play"
+                width={120}
+                height={40}
+              />
+            </a>
+          </div>)}
         </div>
 
         <Image
-          src={imageUrl}
+          src={imageURL}
           alt="Project I worked on"
           quality={95}
           className="absolute hidden sm:block top-8 -right-40 w-[28.25rem] rounded-t-lg shadow-2xl

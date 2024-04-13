@@ -19,6 +19,14 @@ const nextConfig = {
     contentDispositionType: 'attachment',
     contentSecurityPolicy: "default-src 'self'; script-src 'none'; sandbox;",
   },
+  webpack: (config, options) => {
+    config.module.rules.push({
+      test: /\.glsl$/,
+      use: 'glsl-shader-loader',
+    });
+
+    return config;
+  },
 };
 
 export default nextConfig;

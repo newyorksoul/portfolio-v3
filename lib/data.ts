@@ -53,7 +53,7 @@ export const experienceData = [
     title: "Software Engineer",
     description: "Currently freelancing and open to full-time opportunities.",
     date: "Present",
-    icon: React.createElement(FaReact),
+    icon: React.createElement(CgWorkAlt),
     location: "",
   },
 
@@ -65,21 +65,27 @@ export const projectsData = [
     description:
       "This is an open salary viewer. Users can view wages and hours of public employees. Available on App and Play Stores.",
     tags: ["React Native", "React", "Next.js", "Tailwind", "Firebase"],
-    imageUrl: pocketwatchPreviewImage,
+    imageURL: pocketwatchPreviewImage,
+    appStoreURL: "https://apps.apple.com/us/app/pocketwatch-salary-tracker/id6467176746",
+    playStoreURL: "https://play.google.com/store/apps/details?id=com.xiii.pocketwatch"
   },
   {
     title: "Fete App",
     description:
       "Event listing for soca fetes and carnival parties. It has features like search, event management and ticketing. Passion project.",
     tags: ["React Native", "Expo", "React", "TypeScript", "Firebase"],
-    imageUrl: feteappPreviewImage,
+    imageURL: feteappPreviewImage,
+    appStoreURL: "",
+    playStoreURL: ""
   },
   {
     title: "HiRes Compressor",
     description:
-      "A public mobile app for quick conversion of high quality photos and videos into acceptable upload sizes or media types for social media. Reduce file size while maintaining excellent quality.",
+      "An app for quick conversion of HQ photos and videos into acceptable upload sizes or media types for social media. Reduce file size while maintaining excellent quality.",
     tags: ["React Native", "Expo", "TypeScript"],
-    imageUrl: hirescompressorPreviewImage,
+    imageURL: hirescompressorPreviewImage,
+    appStoreURL: "",
+    playStoreURL: ""
   },
 ] as const;
 

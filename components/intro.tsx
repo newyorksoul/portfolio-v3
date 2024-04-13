@@ -1,5 +1,5 @@
 "use client";
-
+import { useTheme } from "@/context/theme";
 import Image from "next/image";
 import React from "react";
 import Link from "next/link";
@@ -13,6 +13,7 @@ import { motion } from "framer-motion";
 export default function Intro() {
   const { ref } = useSectionInView("Home", 0.5);
   const { setCurrentSection, setTimeOfLastClick } = useCurrentSectionContext();
+  const { theme, toggleTheme } = useTheme();
 
   return (
     <section
@@ -30,6 +31,7 @@ export default function Intro() {
               duration: 0.2,
             }}
           >
+            {theme === "light" ?
             <Image
               src="/images/profile.jpg"
               alt="Kristoff portrait"
@@ -39,6 +41,17 @@ export default function Intro() {
               priority={true}
               className="h-64 w-64 rounded-full object-cover border-[0.35rem] border-white shadow-xl"
             />
+            :
+            <Image
+              src="/images/profile-dark.png"
+              alt="Kristoff portrait"
+              width="1800"
+              height="2400"
+              quality="95"
+              priority={true}
+              className="h-64 w-64 rounded-full object-cover border-[0.35rem] border-white shadow-xl"
+            />
+          }
           </motion.div>
         </div>
       </div>
@@ -49,8 +62,7 @@ export default function Intro() {
         animate={{ opacity: 1, y: 0 }}
       >
         <span className="font-bold">Hello, I&apos;m Kristoff.</span> I&apos;m a{" "}
-        <span className="font-bold">software engineer</span> with{" "}
-        <span className="font-bold">four years</span> of experience. I enjoy
+        <span className="font-bold">software engineer</span> who enjoys
         building <span className="italic">apps & websites</span>. My focus is{" "}
         <span className="underline">React Native</span>.
       </motion.h1>
