@@ -53,7 +53,7 @@ export const experienceData = [
     title: "Software Engineer",
     description: "Currently freelancing and open to full-time opportunities.",
     date: "Present",
-    icon: React.createElement(FaReact),
+    icon: React.createElement(CgWorkAlt),
     location: "",
   },
 
