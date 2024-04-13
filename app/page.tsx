@@ -6,7 +6,7 @@ import Projects from "@/components/projects";
 import Skills from "@/components/skills";
 import Experience from "@/components/experience";
 import Contact from "@/components/contact";
-import { MeshGradientRenderer } from "@/components/react-mesh-gradient";
+import { MeshGradientRenderer } from "@johnn-e/react-mesh-gradient";
 import React from "react";
 import { useTheme } from "@/context/theme";
 //import { colors as pallete } from "nice-color-palettes";
