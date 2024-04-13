@@ -19,17 +19,7 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
 
-      <p className="mb-3">
-        With a unique blend of academic knowledge in{" "}
-        <span className="font-medium">Psychology</span> and{" "}
-        <span className="font-medium">Business</span>, complemented by
-        self-taught expertise in full-stack development, I bring a holistic
-        approach to <span className="font-medium">software engineering</span>. My journey into coding was fueled by a
-        passion for creating and a knack for problem-solving, leading me to
-        engulf myself in technologies such as <span className="font-medium">React Native/Expo, React/Next.js, Node.js,
-        and MySQL.</span> Proficient in <span className="font-medium">TypeScript</span>, I am committed to continuous
-        learning and am actively seeking a full-time role where I can contribute
-        to innovative projects.
+      <p className="mb-3">An autodidact, my expertise in software engineering is enriched by a comprehensive background in{" "} <span className="font-medium">Psychology</span> and <span className="font-medium">Business</span>, along with a self-directed mastery in <span className="font-medium">full-stack development</span>. Driven by an innate passion for creation and problem-solving, I have immersed myself in cutting-edge technologies including <span className="font-medium">React Native, Expo, Next.js, Node.js,</span> and <span className="font-medium">GraphQL</span>. Proficient in <span className="font-medium">TypeScript</span>, my dedication to perpetual learning fuels my pursuit of a full-time role where I can apply my skills to groundbreaking projects.
       </p>
 
       <p>
