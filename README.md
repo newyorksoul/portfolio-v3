@@ -10,7 +10,7 @@ Just my software developer portfolio showcasing some of my skills.
 
 ## Usage
 
-- Visit the live site: My Portfolio
+- Visit the live site: kristoff.nyc
 - Explore my projects, read blog posts, and get in touch!
 
 ## Technologies Used
