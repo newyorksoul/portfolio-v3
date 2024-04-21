@@ -70,9 +70,9 @@ export const projectsData = [
     playStoreURL: "https://play.google.com/store/apps/details?id=com.xiii.pocketwatch"
   },
   {
-    title: "Fete App",
+    title: "Event Listing App",
     description:
-      "Event listing for soca fetes and carnival parties. It has features like search, event management and ticketing. Passion project.",
+      "Event listing platform specializing in soca fetes and carnival parties. It has features like search, event management and ticketing. Passion project.",
     tags: ["React Native", "Expo", "React", "TypeScript", "Firebase"],
     imageURL: feteappPreviewImage,
     appStoreURL: "",
