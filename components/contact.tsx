@@ -32,8 +32,10 @@ export default function Contact() {
       <SectionHeading>Contact me</SectionHeading>
 
       <p className="text-gray-700 -mt-6 dark:text-white/80">
-        Please contact me directly at{" "}
-        <a className="underline" href="mailto:example@gmail.com">
+        Available for freelance or contract work. Open to full-time roles in
+        mobile development, React Native, or full-stack engineering. Please
+        contact me directly at{" "}
+        <a className="underline" href="mailto:hello@kristoff.nyc">
           hello@kristoff.nyc
         </a>{" "}
         or through this form.

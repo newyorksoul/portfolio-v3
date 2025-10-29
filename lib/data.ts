@@ -56,18 +56,19 @@ export const experienceData = [
     icon: React.createElement(CgWorkAlt),
     location: "",
   },
-
 ] as const;
 
 export const projectsData = [
   {
     title: "PocketWatch",
     description:
-      "This is an open salary viewer. Users can view wages and hours of public employees. Available on App and Play Stores.",
+      "PocketWatch helps users transparently view public employee salaries. I built the mobile app using React Native and Firebase, integrating real-time data and intuitive search filters. It’s live on both app stores and used by over 500 users monthly.",
     tags: ["React Native", "React", "Next.js", "Tailwind", "Firebase"],
     imageURL: pocketwatchPreviewImage,
-    appStoreURL: "https://apps.apple.com/us/app/pocketwatch-salary-tracker/id6467176746",
-    playStoreURL: "https://play.google.com/store/apps/details?id=com.xiii.pocketwatch"
+    appStoreURL:
+      "https://apps.apple.com/us/app/pocketwatch-salary-tracker/id6467176746",
+    playStoreURL:
+      "https://play.google.com/store/apps/details?id=com.xiii.pocketwatch",
   },
   {
     title: "Event Listing App",
@@ -76,7 +77,7 @@ export const projectsData = [
     tags: ["React Native", "Expo", "React", "TypeScript", "Firebase"],
     imageURL: feteappPreviewImage,
     appStoreURL: "",
-    playStoreURL: ""
+    playStoreURL: "",
   },
   {
     title: "HiRes Compressor",
@@ -85,7 +86,7 @@ export const projectsData = [
     tags: ["React Native", "Expo", "TypeScript"],
     imageURL: hirescompressorPreviewImage,
     appStoreURL: "",
-    playStoreURL: ""
+    playStoreURL: "",
   },
 ] as const;
 

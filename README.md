@@ -1,5 +1,6 @@
 ## Kristoff's Portfolio
-Just my software developer portfolio showcasing some of my skills.
+
+This is my software developer portfolio, highlighting my skills and projects.
 
 ## Installation
 
@@ -10,7 +11,7 @@ Just my software developer portfolio showcasing some of my skills.
 
 ## Usage
 
-- Visit the live site: kristoff.nyc
+- Visit the live site: www.kristoff.nyc
 - Explore my projects, read blog posts, and get in touch!
 
 ## Technologies Used
