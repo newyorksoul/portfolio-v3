@@ -3,7 +3,7 @@ import { CgWorkAlt } from "react-icons/cg";
 import { FaReact, FaLaptopCode } from "react-icons/fa";
 import pocketwatchPreviewImage from "@/public/images/pocketwatch.webp";
 import feteappPreviewImage from "@/public/images/feteappPreview.webp";
-import hirescompressorPreviewImage from "@/public/images/hirescompressorPreview.webp";
+import teamOrange from "@/public/images/teamOrange.webp";
 
 export const links = [
   {
@@ -71,20 +71,21 @@ export const projectsData = [
       "https://play.google.com/store/apps/details?id=com.xiii.pocketwatch",
   },
   {
+    title: "TeamORANGE",
+    description:
+      "Online petition platform for organizing members of NYC's Lifeguard union. Built with React Native and Expo, it allows users to create, sign, and share petitions easily. Focused on user-friendly design and seamless performance.",
+    tags: ["React", "Next.js", "TypeScript", "Tailwind", "Firebase"],
+    imageURL: teamOrange,
+    URL: "https://teamorange.app",
+    appStoreURL: "",
+    playStoreURL: "",
+  },
+  {
     title: "Event Listing App",
     description:
       "Event listing platform specializing in soca fetes and carnival parties. It has features like search, event management and ticketing. Passion project.",
     tags: ["React Native", "Expo", "React", "TypeScript", "Firebase"],
     imageURL: feteappPreviewImage,
-    appStoreURL: "",
-    playStoreURL: "",
-  },
-  {
-    title: "HiRes Compressor",
-    description:
-      "An app for quick conversion of HQ photos and videos into acceptable upload sizes or media types for social media. Reduce file size while maintaining excellent quality.",
-    tags: ["React Native", "Expo", "TypeScript"],
-    imageURL: hirescompressorPreviewImage,
     appStoreURL: "",
     playStoreURL: "",
   },
